@@ -16,5 +16,6 @@ int main(void) {
 	for (int i = 0; i < num + dist; i++) {
 		printf("%d ", array[i]);
 	}
+    free(array);
 	return 0;
 }
